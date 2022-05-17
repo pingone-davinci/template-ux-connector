@@ -49,7 +49,7 @@ var x = setInterval(function() {
 
 const connectorUX = {
   name: 'UX Connector',
-  description: 'Pretend to enter credentials in an app.',
+  description: 'Example connector that presents UI as part of the capability.',
   connectorId: 'connectorUX',
   serviceName: 'connector-ux',
   connectorType: 'example',
