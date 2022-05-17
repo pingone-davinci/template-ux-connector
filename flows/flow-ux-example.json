@@ -1,98 +1,92 @@
 {
-  "customerId": "860a689be83a0f8f246653e3ad7d1317",
-  "name": "example flow",
-  "description": "",
+  "customerId": "a57df50ad62fc782f670f87ae0055c50",
   "flowStatus": "enabled",
-  "createdDate": 1639448500724,
-  "updatedDate": 1639448500726,
-  "currentVersion": 5,
+  "currentVersion": 3,
+  "publishedVersion": 3,
+  "name": "opswat",
+  "description": "Imported on Mon May 16 2022 19:09:04 GMT+0000 (Coordinated Universal Time)",
+  "createdDate": 1652751261445,
+  "updatedDate": 1652751262812,
   "authTokenExpireIds": [],
+  "deployedDate": 1652751262811,
   "functionConnectionId": null,
   "isOutputSchemaSaved": false,
   "outputSchemaCompiled": null,
-  "publishedVersion": 2,
   "settings": null,
   "timeouts": null,
-  "flowId": "2uw1jQMi6qQ294BFq9iVCpDllgHGQPSX",
+  "flowId": "59dd99aeac1322f1f077b7baddd70a8a",
   "companyId": "6YWgejhFHGFyhZM57KfdhnYf7fmeMZKM",
+  "versionId": 3,
   "graphData": {
     "elements": {
       "nodes": [
         {
           "data": {
-            "id": "dogz1en8kc",
+            "id": "ze27s0hmb4",
             "nodeType": "CONNECTION",
-            "connectionId": "fed615849c125d25e7dc01fc2c437fd6",
-            "connectorId": "connectorExample",
-            "name": "Example Connection",
-            "label": "Example Connection",
-            "status": "configured",
-            "capabilityName": "postHTTP",
-            "type": "action",
-            "properties": {
-              "body": {
-                "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"This is an example POST\"\n      }\n    ]\n  }\n]"
-              }
-            },
-            "idUnique": "nft1mjsjl8"
-          },
-          "position": {
-            "x": 277,
-            "y": 237
-          },
-          "group": "nodes",
-          "removed": false,
-          "selected": false,
-          "selectable": true,
-          "locked": false,
-          "grabbable": true,
-          "pannable": false,
-          "classes": ""
-        },
-        {
-          "data": {
-            "id": "kwbvhb2bdg",
-            "nodeType": "EVAL",
-            "label": "Evaluator"
-          },
-          "position": {
-            "x": 427,
-            "y": 236.5
-          },
-          "group": "nodes",
-          "removed": false,
-          "selected": false,
-          "selectable": true,
-          "locked": false,
-          "grabbable": true,
-          "pannable": false,
-          "classes": ""
-        },
-        {
-          "data": {
-            "id": "dbh81uohme",
-            "nodeType": "CONNECTION",
-            "connectionId": "867ed4363b2bc21c860085ad2baa817d",
+            "connectionId": "3c9d3a9ee153da2d7dfc40f5b9ab1d73",
             "connectorId": "httpConnector",
-            "name": "Http",
-            "label": "Http",
+            "name": "Http [2022-05-16]",
+            "label": "HTTP",
             "status": "configured",
             "capabilityName": "customHtmlMessage",
             "type": "trigger",
             "properties": {
               "message": {
-                "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"pingIdentity.svg\",\n        \"url\": \"rawResponse\",\n        \"data\": \"{{local.dogz1en8kc.payload.output.rawResponse}}\",\n        \"tooltip\": \"{{local.dogz1en8kc.payload.output.rawResponse}}\",\n        \"children\": [\n          {\n            \"text\": \"rawResponse\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
+                "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
               },
-              "nodeTitle": {
-                "value": "Flow END"
-              },
-              "nodeDescription": {
-                "value": "display the result from the POST"
+              "messageTitle": {
+                "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"\"\n      },\n      {\n        \"text\": \"\"\n      },\n      {\n        \"type\": \"link\",\n        \"src\": \"opswat-logo-simple-blue.svg\",\n        \"url\": \"rawResponse\",\n        \"data\": \"{{local.s9bb9rvf2a.payload.output.rawResponse}}\",\n        \"tooltip\": \"{{local.s9bb9rvf2a.payload.output.rawResponse}}\",\n        \"children\": [\n          {\n            \"text\": \"rawResponse\"\n          }\n        ]\n      },\n      {\n        \"text\": \"\"\n      }\n    ]\n  }\n]"
               }
             }
           },
           "position": {
-            "x": 577,
+            "x": 607,
+            "y": 236
+          },
+          "group": "nodes",
+          "removed": false,
+          "selected": false,
+          "selectable": true,
+          "locked": false,
+          "grabbable": true,
+          "pannable": false,
+          "classes": ""
+        },
+        {
+          "data": {
+            "id": "x4i5ghhr0p",
+            "nodeType": "EVAL"
+          },
+          "position": {
+            "x": 427,
+            "y": 236
+          },
+          "group": "nodes",
+          "removed": false,
+          "selected": false,
+          "selectable": true,
+          "locked": false,
+          "grabbable": true,
+          "pannable": false,
+          "classes": ""
+        },
+        {
+          "data": {
+            "id": "s9bb9rvf2a",
+            "nodeType": "CONNECTION",
+            "connectionId": "14885691ab364f1dee08406c82bccb22",
+            "connectorId": "connectorUX",
+            "name": "UX Connector",
+            "label": "UX Connector",
+            "status": "configured",
+            "capabilityName": "countdownCheck",
+            "type": "action",
+            "properties": {},
+            "idUnique": "dk9o3agxmm"
+          },
+          "position": {
+            "x": 277,
             "y": 236
           },
           "group": "nodes",
@@ -108,9 +102,9 @@
       "edges": [
         {
           "data": {
-            "id": "a8x2ym8w00",
-            "source": "dogz1en8kc",
-            "target": "kwbvhb2bdg"
+            "id": "cuc2mnajvd",
+            "source": "x4i5ghhr0p",
+            "target": "ze27s0hmb4"
           },
           "position": {
             "x": 0,
@@ -127,9 +121,9 @@
         },
         {
           "data": {
-            "id": "tkmklu1n4q",
-            "source": "kwbvhb2bdg",
-            "target": "dbh81uohme"
+            "id": "wwrs994lv3",
+            "source": "s9bb9rvf2a",
+            "target": "x4i5ghhr0p"
           },
           "position": {
             "x": 0,
@@ -151,7 +145,7 @@
     "userZoomingEnabled": true,
     "zoom": 1,
     "minZoom": 1e-50,
-    "maxZoom": 1e+50,
+    "maxZoom": 1e50,
     "panningEnabled": true,
     "userPanningEnabled": true,
     "pan": {
@@ -164,11 +158,8 @@
     }
   },
   "inputSchema": null,
-  "flowColor": "#6AC15C",
-  "connectorIds": [
-    "connectorExample",
-    "httpConnector"
-  ],
-  "savedDate": 1639448500703,
+  "flowColor": "#eff0f2",
+  "connectorIds": ["httpConnector", "connectorUX"],
+  "savedDate": 1652751261426,
   "variables": []
 }
